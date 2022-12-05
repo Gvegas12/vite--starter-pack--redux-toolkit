@@ -1,0 +1,13 @@
+@import url("../default/normalize.css");
+@import url("../default/reset.css");
+@import url("../colors.css");
+@import url("../fonts.css");
+@import "variables";
+
+* {
+  font-family: sans-serif;
+}
+
+.container_main {
+  max-width: $container_main--width;
+}
